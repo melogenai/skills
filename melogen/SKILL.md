@@ -12,12 +12,15 @@ AI-powered music tools: convert sheet music to MIDI, transcribe audio to MIDI, a
 
 ## Setup
 
+1. Get your API key from [melogenai.com/zh/mcp](https://melogenai.com/zh/mcp)
+2. Install the CLI and set your key:
+
 ```bash
 pip install melogenai
 export MELOGEN_API_KEY=melo_xxx
 ```
 
-Verify your key works:
+3. Verify your key works:
 
 ```bash
 melogen auth verify

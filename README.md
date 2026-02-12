@@ -38,11 +38,14 @@ cp -r melogen .claude/skills/
 
 ## Quick Start
 
+1. Get your API key from [melogenai.com/zh/mcp](https://melogenai.com/zh/mcp)
+2. Install and configure:
+
 ```bash
 # Install CLI
 pip install melogenai
 
-# Set API key
+# Set your API key (get it from https://melogenai.com/zh/mcp)
 export MELOGEN_API_KEY=melo_xxx
 
 # Convert sheet music (PDF/PNG/JPG) to MIDI

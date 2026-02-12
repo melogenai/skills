@@ -1,20 +1,9 @@
 ---
 name: melogen
-description: Use the melogen CLI to convert sheet music to MIDI, transcribe audio to MIDI, and analyze music structure
+description: "Convert sheet music to MIDI and MusicXML, transcribe audio to MIDI, and analyze music structure via the Melogen CLI. Capabilities: sheet music OCR/OMR, PDF to MIDI, PNG/JPG score to MIDI, MP3/WAV/FLAC/OGG/M4A audio to MIDI, polyphonic transcription, stem separation, beat quantization, music theory analysis (key, harmony, form, tonality). Use for: music transcription, music notation, music production, audio transcription, score digitization, MIDI conversion, music AI, music analysis, music generation workflow. Triggers: music, midi, sheet music, sheet2midi, music2midi, audio to midi, pdf to midi, mp3 to midi, wav to midi, musicxml, OMR, optical music recognition, music score, piano to midi, guitar to midi, song to midi, transcribe music, music notation, music theory, chord analysis, key detection, harmony analysis, melogen, melogenai"
 allowed-tools:
   - Bash(melogen *)
   - Bash(pip install melogenai)
-triggers:
-  - melogen
-  - sheet music to midi
-  - audio to midi
-  - music analysis
-  - convert sheet music
-  - pdf to midi
-  - mp3 to midi
-  - analyze music
-  - OMR
-  - musicxml
 ---
 
 # Melogen CLI
